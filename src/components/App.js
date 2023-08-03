@@ -20,7 +20,7 @@ const LoginForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!formData.username || !formData.password) {
-      setErrorMessage("Both username and password are required");
+      setErrorMessage("Both username and password are required.");
     } else {
       // Handle login logic here (e.g., make an API call to verify credentials)
       // For this example, let's just display a success message
